@@ -1,0 +1,121 @@
+/* All Components CSS */
+
+section{
+    padding-top: 5rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: #d8d8d8;
+}
+
+/* Akhir ALL Components CSS */
+
+/* Jumbotron Section */
+
+.jumbotron{
+    padding-top: 10.5rem;
+}
+
+
+
+
+/* Akhir Jumbotron Section */
+
+/* Project Section */
+
+#project {
+    background-color: #273036;
+}
+
+#tas {
+    background-color: #273036;
+}
+
+/* Akhir Project Section */
+
+
+/* Why Hire Me Section */
+
+#whm img, #tas img{
+    border: #525f68 2px solid;
+    outline: #343a40 2px solid;
+    padding: 1rem;
+    border-radius: 20%;
+}
+
+
+/* AKhir WHM Section */
+
+/* Footer Section */
+
+footer .container {
+    padding-bottom: 8rem;
+    padding-top: 3.5rem;
+}
+
+/* Akhir Footer Section */
+
+
+/* Animation CSS */
+
+.jumbotron img, #project .card { 
+    transition: all .2s ease-in-out; 
+    }
+    
+.jumbotron img:hover, #project .card:hover { 
+   transform: scale(1.1); 
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation: fadeInUp 2s;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+
+
+
+
+/* Akhir animation */
+
+
+
+
+
+/* Android CSS */
+
+@media screen and (max-width: 768px) {
+    .jumbotron{
+        padding-top: 4.5rem;
+    }
+    
+    section{
+        padding-top: 3.5rem;
+    }
+}
+
