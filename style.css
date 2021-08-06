@@ -42,7 +42,7 @@ p {
 
 #whm img, #tas img{
     border: #525f68 2px solid;
-    outline: #343a40 2px solid;
+    /* outline: #343a40 2px solid; */
     padding: 1rem;
     border-radius: 20%;
 }

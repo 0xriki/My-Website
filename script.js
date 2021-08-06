@@ -21,9 +21,10 @@ function checkAnimation(element) {
     if (isElementInViewport($elem)) {
         // Start the animation
         $elem.addClass('animated');
-    } else {
-        $elem.removeClass('animated');
-    }
+    } 
+    // else {
+    //     $elem.removeClass('animated');
+    // }
 }
 
 // Capture scroll events
